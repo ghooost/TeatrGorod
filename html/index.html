@@ -27,34 +27,27 @@
 </header>
 <main>
   <section class="promo">
-
     <input type="radio" id="promo_p1" class="promo_radio" name="promo_p" checked>
     <input type="radio" id="promo_p2" class="promo_radio" name="promo_p">
 
     <ul class="promo_list">
 
-      <li class="promo_li">
-        <div class="promo_li_bg"></div>
-        <div class="promo_li_left">
-          <h3>Премьера</h3>
-          <h2>Веселый Роджер!</h2>
-          <p>Спектакль для детей</p>
-          <p>21 марта, 19:00</p>
-          <p>4 апреля, 19:00</p>
-          <a href="#" class="promo_li_button">Купить билет</a>
-        </div>
+      <li class="promo_li promo_li_left" data-bg="afb/checktex1.png">
+        <h3>Премьера</h3>
+        <h2>Веселый Роджер!</h2>
+        <p>Спектакль для детей</p>
+        <p>21 марта, 19:00</p>
+        <p>4 апреля, 19:00</p>
+        <a href="#" class="promo_li_button">Купить билет</a>
       </li>
 
-      <li class="promo_li">
-        <div class="promo_li_bg"></div>
-        <div class="promo_li_right">
-          <h3>Премьера</h3>
-          <h2>Веселый Роджер!</h2>
-          <h4>Спектакль для детей</h4>
-          <p>21 марта, 19:00</p>
-          <p>4 апреля, 19:00</p>
-          <a href="#" class="promo_li_button">Купить билет</a>
-        </div>
+      <li class="promo_li promo_li_right" data-bg="afb/checktex1.png">
+        <h3>Премьера</h3>
+        <h2>Веселый Роджер!</h2>
+        <h4>Спектакль для детей</h4>
+        <p>21 марта, 19:00</p>
+        <p>4 апреля, 19:00</p>
+        <a href="#" class="promo_li_button">Купить билет</a>
       </li>
 
     </ul>
@@ -66,7 +59,7 @@
 
   </section>
 
-  <section class="afisha">
+  <section class="afisha block_bg">
     <h2 class="afisha_title">Ближайшие спектакли</h2>
     <ul class="afisha_ul">
       <li class="afisha_li">
@@ -140,31 +133,30 @@
     <div class="afisha_all">
       <a href="#" class="afisha_all_button">Вся афиша</a>
     </div>
-
   </section>
 
-  <section class="news">
+  <section class="news block_bg">
     <h2 class="news_title">Наши новости</h2>
 
     <ul class="news_ul">
 
       <li class="news_li">
         <a href="#" class="news_li_a">
-          <div class="news_li_image"></div>
+          <div class="news_li_image" data-bg="afb/checktex1.png"></div>
           <h3 class="news_li_title">Стартует фестиваль "Долгопрудненская осень"</h3>
         </a>
       </li>
 
       <li class="news_li">
         <a href="#" class="news_li_a">
-          <div class="news_li_image"></div>
+          <div class="news_li_image" data-bg="afb/checktex1.png"></div>
           <h3 class="news_li_title">Стартует фестиваль "Долгопрудненская осень"</h3>
         </a>
       </li>
 
       <li class="news_li">
         <a href="#" class="news_li_a">
-          <div class="news_li_image"></div>
+          <div class="news_li_image" data-bg="afb/checktex1.png"></div>
           <h3 class="news_li_title">Стартует фестиваль "Долгопрудненская осень"</h3>
         </a>
       </li>
@@ -174,7 +166,16 @@
     <div class="news_all">
       <a href="#" class="news_all_button">Все новости</a>
     </div>
+  </section>
 
+  <section class="imginfo block_bg" data-bg="afb/checktex1.png">
+    <h2 class="imginfo_title">Театр "Город"</h2>
+    <p>Творчество долгопрудненского театра "Город" хорошо знают и ценят зрители</p>
+    <div class="imginfo_all">
+      <a href="#" class="imginfo_all_button">Узнать больше</a>
+    </div>
+    <!-- <div class="block_content imginfo_content">
+    </div> -->
   </section>
 
 </main>
@@ -242,5 +243,6 @@
     <p><a href="mailto:gorod@list.ru">gorod@list.ru</a></p>
   </address>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>
