@@ -1,10 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['whatwg-fetch',"babel-polyfill",'./src/index.js'],
+  entry: {
+    'index.js':['whatwg-fetch',"babel-polyfill",'./src/js/index.js']
+  },
   output: {
-    filename: 'index.js',
-    path: path.resolve(__dirname, '..')
+    filename: '[name]',
+    path: path.resolve(__dirname, '.')
   },
   module: {
     "rules":[{
