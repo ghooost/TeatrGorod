@@ -109,11 +109,6 @@ footer {
   letter-spacing:1.5px;
 }
 
-footer a {
-  color:#fff;
-  text-decoration:none;
-}
-
 .footer_h2 {
   text-align:center;
   font-weight:normal;
@@ -159,6 +154,8 @@ footer a {
 .footer_menu_a {
   margin-bottom:1em;
   padding-right:2em;
+  color:#fff;
+  text-decoration:none;
 }
 
 .footer_menu_a:hover {
@@ -184,6 +181,8 @@ footer a {
   margin:0.6em 0;
   letter-spacing: 2px;
   color:#eee;
+  text-decoration:none;
+
 }
 
 .footer_menu_a_sec:hover {
@@ -205,6 +204,15 @@ footer a {
  .footer_address p {
    margin:0.4em;
    letter-spacing: 1.5px;
+ }
+
+ .footer_a {
+   color:#fff;
+   text-decoration:none;
+ }
+
+ .footer_a:hover {
+   color:#f00;
  }
 
 /*NOTE: MAIN */
